@@ -20,6 +20,18 @@ ul li {
   padding: 15px;
 }
 
+.project-circle {
+  border-radius: 50%;
+  border:8px solid #D0D0D0;
+  margin: 20px;
+  padding: 5px;
+}
+
+.project-circle:hover {
+  background: #B40404;
+
+}
+
 .java-background{
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -27,13 +39,13 @@ ul li {
 
 h1 {
  color: white; 
- font-family: 'Poiret One', cursive; 
+ font-family: 'Orbitron', sans-serif;
  font-size: 40px;
 }
 
 h2, h3 {
  color: white;
- font-family: 'Poiret One', cursive;
+ font-family: 'Orbitron', sans-serif;
  margin-top: 0px;
  padding-top: 20px;
 }
@@ -61,6 +73,7 @@ h1, h3, h4, h5, h6 {
 
 #skills {
   background: black;
+  padding: 8em 0;
 }
 
 #projects {
@@ -73,24 +86,23 @@ h1, h3, h4, h5, h6 {
   color: white;
   overflow: hidden;
   position: relative;
+  padding: 6em 0;
 }
 
 #about {
   background: gray;
+  padding: 50px;
 }
 
 footer {
 
-/*  width: 100%;
-  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),url(icons/footer.jpg);
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(critcode.png);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
   color: white;
   overflow: hidden;
-  position: relative;*/
-  background: black;
+  position: relative;
+  padding: 50px;
 
 }
 
