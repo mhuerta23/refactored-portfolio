@@ -7,6 +7,8 @@ body {
 li{
   padding-left: 20px;
   padding-right: 20px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
 }
 
 ul li { 
@@ -32,10 +34,6 @@ ul li {
 
 }
 
-.java-background{
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
 h1 {
  color: white; 
@@ -53,12 +51,12 @@ h2, h3 {
 p {
   color: white;
   font-family: 'Play', sans-serif;  
+  font-size: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 200px;
+  margin-right: 150px;
   margin-left: 200px;
 }
-
 
 
 
@@ -73,6 +71,7 @@ h1, h3, h4, h5, h6 {
 
 #skills {
   background: black;
+  width: 100%;
   padding: 8em 0;
 }
 
@@ -91,7 +90,9 @@ h1, h3, h4, h5, h6 {
 
 #about {
   background: gray;
-  padding: 50px;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 13px;
 }
 
 footer {
@@ -102,7 +103,6 @@ footer {
   color: white;
   overflow: hidden;
   position: relative;
-  padding: 50px;
 
 }
 
@@ -167,7 +167,11 @@ footer {
 }
 
 
-/* Header Animation */
+
+
+
+
+/*/* Header Animation */
 .large-header {
   position: relative;
   width: 100%;
